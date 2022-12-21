@@ -1,5 +1,6 @@
-public class Main {
+import org.junit.jupiter.api.Assertions;
 
+public class Main {
     public static void main(String[] args) {
         Post post = new Post();
         post.name = "Иван";
@@ -11,5 +12,6 @@ public class Main {
         post.birthday.day = 13;
         post.birthday.month = 6;
         post.birthday.year = 1999;
+
     }
 }
